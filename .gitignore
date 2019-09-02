@@ -1,0 +1,5 @@
+*.swp
+coverage.*
+.vscode
+.idea
+/tags
