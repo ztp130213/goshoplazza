@@ -44,6 +44,7 @@ type Product struct {
 	InventoryPolicy       string          `json:"inventory_policy"`
 	InventoryQuantity     int64           `json:"inventory_quantity"`
 	Handle                string          `json:"handle,omitempty"`
+	Tags                  string          `json:"tags,omitempty"`
 	CreatedAt             *time.Time      `json:"created_at,omitempty"`
 	UpdatedAt             *time.Time      `json:"updated_at,omitempty"`
 	PublishedAt           *time.Time      `json:"published_at,omitempty"`
