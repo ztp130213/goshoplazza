@@ -29,24 +29,24 @@ type VariantServiceOp struct {
 
 // Variant represents a Shopify variant
 type Variant struct {
-	ID                   string           `json:"id,omitempty"`
-	ProductID            string           `json:"product_id,omitempty"`
-	Title                string           `json:"title,omitempty"`
-	Sku                  string           `json:"sku,omitempty"`
-	Position             int              `json:"position,omitempty"`
-	Price                *decimal.Decimal `json:"price,omitempty"`
-	CompareAtPrice       *decimal.Decimal `json:"compare_at_price,omitempty"`
-	Option1              string           `json:"option1,omitempty"`
-	Option2              string           `json:"option2,omitempty"`
-	Option3              string           `json:"option3,omitempty"`
-	CreatedAt            *time.Time       `json:"created_at,omitempty"`
-	UpdatedAt            *time.Time       `json:"updated_at,omitempty"`
-	image                Image            `json:"image,omitempty"`
-	Barcode              string           `json:"barcode,omitempty"`
-	InventoryQuantity    int              `json:"inventory_quantity,omitempty"`
-	Weight               *decimal.Decimal `json:"weight,omitempty"`
-	WeightUnit           string           `json:"weight_unit,omitempty"`
-	Note                 string           `json:"note,omitempty"`
+	ID                string           `json:"id,omitempty"`
+	ProductID         string           `json:"product_id,omitempty"`
+	Title             string           `json:"title,omitempty"`
+	Sku               string           `json:"sku,omitempty"`
+	Position          int              `json:"position,omitempty"`
+	Price             *decimal.Decimal `json:"price,omitempty"`
+	CompareAtPrice    *decimal.Decimal `json:"compare_at_price,omitempty"`
+	Option1           string           `json:"option1,omitempty"`
+	Option2           string           `json:"option2,omitempty"`
+	Option3           string           `json:"option3,omitempty"`
+	CreatedAt         *time.Time       `json:"created_at,omitempty"`
+	UpdatedAt         *time.Time       `json:"updated_at,omitempty"`
+	Image             Image            `json:"image,omitempty"`
+	Barcode           string           `json:"barcode,omitempty"`
+	InventoryQuantity int              `json:"inventory_quantity,omitempty"`
+	Weight            *decimal.Decimal `json:"weight,omitempty"`
+	WeightUnit        string           `json:"weight_unit,omitempty"`
+	Note              string           `json:"note,omitempty"`
 }
 
 // VariantResource represents the result from the variants/X.json endpoint
